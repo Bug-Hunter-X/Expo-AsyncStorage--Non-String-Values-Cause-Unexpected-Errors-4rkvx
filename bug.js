@@ -1,0 +1,1 @@
+This error occurs when using AsyncStorage in Expo and attempting to store a value that is not a string. AsyncStorage only accepts strings as values.  Attempting to store other data types such as objects or numbers will result in an error. This error is not always clearly indicated and can manifest as unexpected behavior or silent failures.
