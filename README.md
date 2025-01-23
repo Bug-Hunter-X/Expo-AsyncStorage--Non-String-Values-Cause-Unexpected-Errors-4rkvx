@@ -1,0 +1,1 @@
+This repository demonstrates a common but subtle error in Expo's AsyncStorage: storing non-string values.  The `bug.js` file shows how attempting to store an object causes silent failure. `bugSolution.js` provides the correct implementation using JSON.stringify and JSON.parse.
